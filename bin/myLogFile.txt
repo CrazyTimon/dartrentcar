@@ -1,0 +1,733 @@
+2015.10.23 23:10:17.455	rpc	[INFO]:	Adding /toyapi/v1 to set of valid APIs.
+2015.10.23 23:10:17.515	rpc	[INFO]:	Enabling Discovery API Service for api: /toyapi/v1
+2015.10.23 23:10:17.568	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2015.10.23 23:10:22.491	rpc	[INFO]:	Invoking API: /toyapi/v1 with HTTP method: GET on url: http://localhost:8080/api/toyapi/v1/hero/asd/false.
+2015.10.23 23:10:22.516	rpc	[FINER]:	
+Request for API /toyapi/v1:
+  Method: GET
+  Path: /api/toyapi/v1/hero/asd/false
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    cache-control: no-cache
+    connection: keep-alive
+    host: localhost:8080
+    pragma: no-cache
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.10.23 23:10:22.521	rpc	[FINE]:	
+Invoking method: helloHeroWithBoolean with:
+  Positional Parameters:
+    asd
+    false
+  Named Parameters:
+
+2015.10.23 23:10:22.528	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2015.10.23 23:10:22.533	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asd you are not a hero}
+2015.10.23 23:10:22.545	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 32, 121, 111, 117, 32, 97, 114, 101, 32, 110, 111, 116, 32, 97, 32, 104, 101, 114, 111, 34, 10, 125]
+2015.10.23 23:10:22.554	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asd you are not a hero}
+
+2015.13.23 23:13:00.887	rpc	[INFO]:	Invoking API: /toyapi/v1 with HTTP method: GET on url: http://localhost:8080/api/toyapi/v1/hero/asd/false.
+2015.13.23 23:13:00.892	rpc	[FINER]:	
+Request for API /toyapi/v1:
+  Method: GET
+  Path: /api/toyapi/v1/hero/asd/false
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.13.23 23:13:00.914	rpc	[FINE]:	
+Invoking method: helloHeroWithBoolean with:
+  Positional Parameters:
+    asd
+    false
+  Named Parameters:
+
+2015.13.23 23:13:00.923	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2015.13.23 23:13:00.932	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asd you are not a hero}
+2015.13.23 23:13:00.937	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 32, 121, 111, 117, 32, 97, 114, 101, 32, 110, 111, 116, 32, 97, 32, 104, 101, 114, 111, 34, 10, 125]
+2015.13.23 23:13:00.945	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asd you are not a hero}
+
+2015.24.24 00:24:45.567	rpc	[INFO]:	Adding /toyapi/v1 to set of valid APIs.
+2015.24.24 00:24:45.626	rpc	[INFO]:	Enabling Discovery API Service for api: /toyapi/v1
+2015.24.24 00:24:45.679	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2015.25.24 00:25:07.461	rpc	[INFO]:	Invoking API: /toyapi/v1 with HTTP method: GET on url: http://localhost:8080/api/toyapi/v1/hero/asd/false.
+2015.25.24 00:25:07.487	rpc	[FINER]:	
+Request for API /toyapi/v1:
+  Method: GET
+  Path: /api/toyapi/v1/hero/asd/false
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    cache-control: max-age=0
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.25.24 00:25:07.496	rpc	[FINE]:	
+Invoking method: helloHeroWithBoolean with:
+  Positional Parameters:
+    asd
+    false
+  Named Parameters:
+
+2015.25.24 00:25:07.502	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2015.25.24 00:25:07.507	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asd you are not a hero}
+2015.25.24 00:25:07.519	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 32, 121, 111, 117, 32, 97, 114, 101, 32, 110, 111, 116, 32, 97, 32, 104, 101, 114, 111, 34, 10, 125]
+2015.25.24 00:25:07.527	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asd you are not a hero}
+
+2015.25.24 00:25:12.199	rpc	[INFO]:	Invoking API: /toyapi/v1 with HTTP method: GET on url: http://localhost:8080/api/toyapi/v1/hero/asd/false.
+2015.25.24 00:25:12.205	rpc	[FINER]:	
+Request for API /toyapi/v1:
+  Method: GET
+  Path: /api/toyapi/v1/hero/asd/false
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.25.24 00:25:12.213	rpc	[FINE]:	
+Invoking method: helloHeroWithBoolean with:
+  Positional Parameters:
+    asd
+    false
+  Named Parameters:
+
+2015.25.24 00:25:12.220	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2015.25.24 00:25:12.224	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asd you are not a hero}
+2015.25.24 00:25:12.235	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 32, 121, 111, 117, 32, 97, 114, 101, 32, 110, 111, 116, 32, 97, 32, 104, 101, 114, 111, 34, 10, 125]
+2015.25.24 00:25:12.246	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asd you are not a hero}
+
+2015.26.24 00:26:29.178	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/resource/123.
+
+2015.27.24 00:27:24.760	rpc	[INFO]:	Invoking API: /toyapi/v1 with HTTP method: GET on url: http://localhost:8080/api/toyapi/v1/hero/asd/false.
+2015.27.24 00:27:24.767	rpc	[FINER]:	
+Request for API /toyapi/v1:
+  Method: GET
+  Path: /api/toyapi/v1/hero/asd/false
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.27.24 00:27:24.772	rpc	[FINE]:	
+Invoking method: helloHeroWithBoolean with:
+  Positional Parameters:
+    asd
+    false
+  Named Parameters:
+
+2015.27.24 00:27:24.776	rpc	[FINE]:	Method returned result: Instance of 'ToyResponse'
+2015.27.24 00:27:24.780	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asd you are not a hero}
+2015.27.24 00:27:24.786	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 32, 121, 111, 117, 32, 97, 114, 101, 32, 110, 111, 116, 32, 97, 32, 104, 101, 114, 111, 34, 10, 125]
+2015.27.24 00:27:24.790	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asd you are not a hero}
+
+2015.48.24 00:48:36.053	rpc	[INFO]:	Adding /rentCar/v1 to set of valid APIs.
+2015.48.24 00:48:36.115	rpc	[INFO]:	Enabling Discovery API Service for api: /rentCar/v1
+2015.48.24 00:48:36.206	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2015.48.24 00:48:43.915	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /toyapi/v1.
+
+2015.49.24 00:49:12.532	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/hero/asd/false.
+2015.49.24 00:49:12.542	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No method found matching HTTP method: GET and url: /api/rentCar/v1/hero/asd/false.
+
+2015.49.24 00:49:21.235	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/rentCar/noop.
+
+2015.49.24 00:49:23.233	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentCar/noop.
+
+2015.49.24 00:49:27.602	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/noop.
+
+2015.49.24 00:49:29.874	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentCar/noop.
+
+2015.49.24 00:49:30.173	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/rentCar/noop.
+
+2015.49.24 00:49:32.305	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentCar/noop.
+
+2015.49.24 00:49:32.567	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/noop.
+
+2015.49.24 00:49:34.386	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/rentcar/noop.
+
+2015.49.24 00:49:40.739	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.50.24 00:50:31.351	rpc	[INFO]:	Adding /rentCar/v1 to set of valid APIs.
+2015.50.24 00:50:31.374	rpc	[INFO]:	Enabling Discovery API Service for api: /rentCar/v1
+2015.50.24 00:50:31.454	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2015.50.24 00:50:52.126	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/rentcar.
+
+2015.51.24 00:51:43.938	rpc	[INFO]:	Adding /rentCar/v1 to set of valid APIs.
+2015.51.24 00:51:43.963	rpc	[INFO]:	Enabling Discovery API Service for api: /rentCar/v1
+2015.51.24 00:51:44.043	rpc	[INFO]:	Adding /discovery/v1 to set of valid APIs.
+2015.51.24 00:51:50.899	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/rentcar.
+
+2015.51.24 00:51:54.870	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/v1/rentcar.
+
+2015.52.24 00:52:00.104	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.52.24 00:52:04.504	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api//v1/.
+
+2015.52.24 00:52:09.767	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api/v1/.
+
+2015.52.24 00:52:10.972	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid request, missing API name and/or version: http://localhost:8080/api//v1/.
+
+2015.52.24 00:52:11.282	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.52.24 00:52:24.936	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.52.24 00:52:27.534	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.52.24 00:52:36.768	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /RentCar/v1.
+
+2015.52.24 00:52:39.870	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /Rentcar/v1.
+
+2015.52.24 00:52:43.449	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No API with key: /rentcar/v1.
+
+2015.52.24 00:52:46.697	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/noop/.
+2015.52.24 00:52:46.706	rpc	[WARNING]:	
+Response
+  Status Code: 404
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 404 and message: No method found matching HTTP method: GET and url: /api/rentCar/v1/noop/.
+
+2015.52.24 00:52:53.408	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/noop.
+2015.52.24 00:52:53.431	rpc	[FINER]:	
+Request for API /rentCar/v1:
+  Method: GET
+  Path: /api/rentCar/v1/noop
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.52.24 00:52:53.435	rpc	[FINE]:	
+Invoking method: noop with:
+  Positional Parameters:
+  Named Parameters:
+
+2015.52.24 00:52:53.441	rpc	[FINE]:	Method returned result: null
+2015.52.24 00:52:53.447	rpc	[FINER]:	
+Response
+  Status Code: 204
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {}
+
+2015.52.24 00:52:59.961	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/noop.
+2015.52.24 00:52:59.966	rpc	[FINER]:	
+Request for API /rentCar/v1:
+  Method: GET
+  Path: /api/rentCar/v1/noop
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.52.24 00:52:59.971	rpc	[FINE]:	
+Invoking method: noop with:
+  Positional Parameters:
+  Named Parameters:
+
+2015.52.24 00:52:59.975	rpc	[FINE]:	Method returned result: null
+2015.52.24 00:52:59.979	rpc	[FINER]:	
+Response
+  Status Code: 204
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {}
+
+2015.53.24 00:53:04.776	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/noop.
+2015.53.24 00:53:04.781	rpc	[FINER]:	
+Request for API /rentCar/v1:
+  Method: GET
+  Path: /api/rentCar/v1/noop
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.53.24 00:53:04.787	rpc	[FINE]:	
+Invoking method: noop with:
+  Positional Parameters:
+  Named Parameters:
+
+2015.53.24 00:53:04.791	rpc	[FINE]:	Method returned result: null
+2015.53.24 00:53:04.795	rpc	[FINER]:	
+Response
+  Status Code: 204
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {}
+
+2015.53.24 00:53:23.255	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/hello/123/age/123.
+2015.53.24 00:53:23.267	rpc	[FINER]:	
+Request for API /rentCar/v1:
+  Method: GET
+  Path: /api/rentCar/v1/hello/123/age/123
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.53.24 00:53:23.271	rpc	[FINE]:	
+Invoking method: helloNameAge with:
+  Positional Parameters:
+    123
+    123
+  Named Parameters:
+
+2015.53.24 00:53:23.276	rpc	[FINE]:	Method returned result: Instance of 'RentCarResponse'
+2015.53.24 00:53:23.280	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello 123 of age 123!}
+2015.53.24 00:53:23.288	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 49, 50, 51, 32, 111, 102, 32, 97, 103, 101, 32, 49, 50, 51, 33, 34, 10, 125]
+2015.53.24 00:53:23.292	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello 123 of age 123!}
+
+2015.53.24 00:53:27.199	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/hello/asdasd/age/asdsa..
+2015.53.24 00:53:27.211	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid integer value: asdsa. for path parameter: age. FormatException: Invalid radix-10 number
+asdsa.
+
+2015.53.24 00:53:30.317	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/hello/asdasd/age/asdsa.
+2015.53.24 00:53:30.324	rpc	[WARNING]:	
+Response
+  Status Code: 400
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Exception:
+    RPC Error with status: 400 and message: Invalid integer value: asdsa for path parameter: age. FormatException: Invalid radix-10 number
+asdsa
+
+2015.53.24 00:53:34.518	rpc	[INFO]:	Invoking API: /rentCar/v1 with HTTP method: GET on url: http://localhost:8080/api/rentCar/v1/hello/asdasd/age/123.
+2015.53.24 00:53:34.524	rpc	[FINER]:	
+Request for API /rentCar/v1:
+  Method: GET
+  Path: /api/rentCar/v1/hello/asdasd/age/123
+    accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    accept-encoding: gzip, deflate, sdch
+    accept-language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    connection: keep-alive
+    host: localhost:8080
+    user-agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.0 (Dart) Safari/537.36
+
+2015.53.24 00:53:34.531	rpc	[FINE]:	
+Invoking method: helloNameAge with:
+  Positional Parameters:
+    asdasd
+    123
+  Named Parameters:
+
+2015.53.24 00:53:34.535	rpc	[FINE]:	Method returned result: Instance of 'RentCarResponse'
+2015.53.24 00:53:34.539	rpc	[FINEST]:	Successfully encoded result as json: {result: Hello asdasd of age 123!}
+2015.53.24 00:53:34.543	rpc	[FINEST]:	Successfully encoded json as bytes:
+  [123, 10, 32, 34, 114, 101, 115, 117, 108, 116, 34, 58, 32, 34, 72, 101, 108, 108, 111, 32, 97, 115, 100, 97, 115, 100, 32, 111, 102, 32, 97, 103, 101, 32, 49, 50, 51, 33, 34, 10, 125]
+2015.53.24 00:53:34.547	rpc	[FINER]:	
+Response
+  Status Code: 200
+  Headers:
+    access-control-allow-credentials: true
+    access-control-allow-origin: *
+    cache-control: no-cache, no-store, must-revalidate
+    content-type: application/json; charset=utf-8
+    expires: 0
+    pragma: no-cache
+  Body:
+    {result: Hello asdasd of age 123!}
+
