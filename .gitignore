@@ -7,9 +7,9 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-.idea
-packages
-.pub
+.idea/
+packages/
+.pub/
 
 # Windows Installer files
 *.cab
